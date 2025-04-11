@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Fotográfica Interactiva</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Galería Fotográfica Interactiva</h1>
+
+    <div id="image" class="preview-box">
+        Pase el ratón por encima de una imagen para mostrarla aquí
+    </div>
+
+    <div class="gallery">
+        <img src="https://unsplash.it/300/200?image=1080" alt="Fresas Sabrosas" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img src="https://unsplash.it/300/200?image=1079" alt="Portal al Nuevo Mundo" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img src="https://unsplash.it/300/200?image=1067" alt="La Vista a la Ciudad" onmouseover="upDate(this)" onmouseout="unDo()">
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
